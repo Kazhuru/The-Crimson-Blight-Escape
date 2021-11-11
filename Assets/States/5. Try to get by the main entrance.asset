@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 5. Try to get by the main entrance
+  m_EditorClassIdentifier: 
+  id: 0
+  storyText: As I push my way on the multitude of people, I can deduce that some of
+    this folk has been touched by the toxic air, there is some dangerous red brands
+    on their body and obliviously they are suffering, luckily that's no contagious
+    but scary as fuck, after some minutes and rude pushing the people you get to the
+    tickets side...
+  conversationText: 1- Try to buy a ticket to hell knows out of here.
+  nextStates:
+  - {fileID: 11400000, guid: 21f6f8202c35ffe489b7cde1050d678d, type: 2}

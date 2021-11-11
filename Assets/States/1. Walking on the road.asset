@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 1. Walking on the road
+  m_EditorClassIdentifier: 
+  id: 1
+  storyText: Now that I'm out ready for action I'm wondering my next step, I have
+    to get out of the town the quick as possible, but I don't have a car as I always
+    have used the public transport to move around...
+  conversationText: "1- I think I have enough money walk to the nearest Train station
+    and get a ticket to get out of here.\r\n2- I'll probably need that money later
+    and those rusty trains aren't that safe, I'll try to steal a car.\r\n3- Hell!
+    the fastest to run anywhere out the better chance I'll have to survive, that simple
+    right?"
+  nextStates:
+  - {fileID: 11400000, guid: c1bf2a6f6fd8edd4f987871fe3be46ed, type: 2}
+  - {fileID: 11400000, guid: 0696d8abcd2c57f4f954d0f078f31cea, type: 2}
+  - {fileID: 11400000, guid: 8517fb5f841b6ac43b680d4d82a2e1c1, type: 2}

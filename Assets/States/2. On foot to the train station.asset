@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 2. On foot to the train station
+  m_EditorClassIdentifier: 
+  id: 2
+  storyText: Walking with a quick pace I can see that crimson mist that covers everything
+    and only leaves decay and putrefaction, the rust of a new building chill your
+    spine and now start to almost run to the train station, you see that there is
+    loads of people at the entrance and also there is some motorcycles in the park
+    station...
+  conversationText: "1- I'm going to stick to the plan and try to get on a Train safer
+    in this increasing panic.\r\n2- Nah, there is to many people around I'll be dead
+    when I reach the entrance, lets try to steal some of this motorcycles."
+  nextStates:
+  - {fileID: 11400000, guid: cdc20575d7b5304438234b5187c92837, type: 2}
+  - {fileID: 11400000, guid: b1efd23a461af2b4c8f6acfdc02dee89, type: 2}

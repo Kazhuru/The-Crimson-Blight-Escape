@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 12. Help State
+  m_EditorClassIdentifier: 
+  id: 0
+  storyText: "How to play.\r\n\nEnjoy the interactive demo story, read carefully and
+    make your choice with the options given to you, this can be:  1,2 or 3.\r\nAlso
+    you can restart the game pressing the letter: 'R'\n\n(PD: Music Soundtrack by
+    Aspecty <3)"
+  conversationText: 1- Go to Main Menu
+  nextStates:
+  - {fileID: 11400000, guid: c90152caf4c7a4f42a9233d7414711d6, type: 2}

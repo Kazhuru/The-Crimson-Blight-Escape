@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 6. There is some motorcycles in the park station
+  m_EditorClassIdentifier: 
+  id: 0
+  storyText: I have only saw from a friend of mine how to access the control of a
+    car without the keys, how different can be motorcycles, is now or never to be
+    able to do that, I recently see that the owner of that deportive red one leaved
+    with a rush on his way to the enter, I'll probably have like 10 minutes to make
+    this work...
+  conversationText: 1- All right, let's hack this shit.
+  nextStates:
+  - {fileID: 11400000, guid: 9c2537d8fd783e24e919dbde32d67b92, type: 2}

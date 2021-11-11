@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 8. They have a queue that prioritize kids and elders
+  m_EditorClassIdentifier: 
+  id: 0
+  storyText: The old lady tells me that I can't get a ticket because there is a priority
+    to save child's and elder people from the catastrophe, I have to think quickly
+    if I still want to get my ass on a Train...
+  conversationText: "1- See miss my very own child already got a ticket and is on
+    the next Train schedule, also I'm pregnant! so if you don't want to destroy a
+    young family better I can buy one ticket.\r\n2-\_ I see, I know that's reasonable
+    I'll wait until adults can join to the next one as well."
+  nextStates:
+  - {fileID: 11400000, guid: 4e772660fc842e64284206a43ea502ff, type: 2}
+  - {fileID: 11400000, guid: 181125e90c43ede46ba1acee4171864c, type: 2}

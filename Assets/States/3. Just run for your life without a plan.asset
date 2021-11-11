@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c997f86abb8a6dd429dd7247225821f1, type: 3}
+  m_Name: 3. Just run for your life without a plan
+  m_EditorClassIdentifier: 
+  id: 3
+  storyText: Well I get carried by the panic and I have been running for around an
+    hour I'm out of the city but I think on foot I'll not didn't make it to over pass
+    this curses mist that grows on the sky...
+  conversationText: 1- Keep running, there is no way back now.
+  nextStates:
+  - {fileID: 11400000, guid: 181125e90c43ede46ba1acee4171864c, type: 2}
